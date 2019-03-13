@@ -9,7 +9,7 @@ const sumArray = (arr, num) => {
         return false; 
     }
 
-//O(n^2)
+//O(n^2) (could be faster)
     for(let i = 0 ; i < arr.length - num + 1; i++){
           temp = 0; 
           for(let j = 0 ; j < num; j++){ 
