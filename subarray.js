@@ -23,7 +23,7 @@ const sumArray = (arr, num) => {
     return max;  
 }
 
-console.log(sumArray([1,1,2,2,3,5,6,8], 3));
+console.log("sumArray result = " + sumArray([1,1,2,2,3,5,6,8], 3));
 
 // -------------------------------- //
 
